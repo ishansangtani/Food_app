@@ -1,0 +1,28 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "lets learn react!",
+  "keywords": [
+    "react"
+  ],
+  "license": "ISC",
+  "author": "Ishan Sangtani",
+  "scripts": {
+    "start": "parcel 1.html",
+    "build": "parcel build 1.html",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-router-dom": "^6.30.6",
+    "tailwindcss": "^4.3.3"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
